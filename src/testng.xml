@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" >
+    <test name="Manage Todo List"  preserve-order="true">
+        <!--        <groups>-->
+        <!--            <run>-->
+        <!--                <include name = "completed"/>-->
+        <!--            </run>-->
+        <!--        </groups>-->
+        <classes>
+            <class name="TestRunner"/>
+        </classes>
+    </test>
+</suite>
